@@ -2,12 +2,12 @@ import torch
 import os
 
 
-BASE_PATH = "/Users/pd3rvr/Documents/rbkp2/models/signal_detection_model/dataset"
+BASE_PATH = "/Users/pd3rvr/Documents/rbkp2/gitt/signal_detection_model/dataset"
 IMAGES_PATH = os.path.sep.join([BASE_PATH, "images"])
 ANNOTS_PATH = os.path.sep.join([BASE_PATH, "annotations"])
 
 
-BASE_OUTPUT = "/Users/pd3rvr/Documents/rbkp2/models/signal_detection_model/dataset/output"
+BASE_OUTPUT = "/Users/pd3rvr/Documents/rbkp2/gitt/signal_detection_model/dataset/output"
 
 MODEL_PATH = os.path.sep.join([BASE_OUTPUT, "detector.pth"])
 LE_PATH = os.path.sep.join([BASE_OUTPUT, "le.pickle"]) #label encoder
